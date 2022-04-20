@@ -1,0 +1,8 @@
+autoOpen: false
+apps:
+  - port: 5000
+    run: pip3 install -i https://mirrors.tencent.com/pypi/simple/ -r requirements.txt && python3 app.py
+    root: ./web
+    name: PythonDemo
+    description: 我的第一个 Python 项目
+    autoOpen: true
